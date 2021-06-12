@@ -13,9 +13,13 @@ var animatedElement = Cloudelem.animate([
 var PlanEle = document.getElementById('plane-div');
 
 var PlanElement = PlanEle.animate([
-    { transform: 'translate(0,0)' },
-    { transform: 'translate(600px,0)' },
+    { transform: 'translate(0,-400px)' },
+    { transform: 'translate(600px,-200px)' },
+    { transform: 'translate(800px,0px)' },
+    { transform: 'translate(1000px,200px)' },
+    { transform: 'translate(1200px,400px)' },
+    { transform: 'translate(100%,400px)' },
+
 ], {
-    duration: 3000,
-    iterations: Infinity
+    duration: 10000
 })
